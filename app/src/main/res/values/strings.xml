@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">ForeQuiz</string>
 
-    <!-- Question -->
-    <string name="questionText">Question!</string>
+    <!-- TextView -->
+    <string name="resultText">Result</string>
+    <string name="questionTitle">Question</string>
+    <string name="questionText">Tap in ascending order.</string>
 
     <!-- Buttons -->
     <string name="b0">Choice1</string>
