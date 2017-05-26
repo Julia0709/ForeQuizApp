@@ -12,8 +12,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:paddingTop="36dp"
         android:paddingBottom="8dp"
+        android:paddingTop="36dp"
         android:text="@string/questionTitle"
         android:textAlignment="center"
         android:textSize="14sp" />
@@ -31,18 +31,18 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingLeft="24dp"
-        android:paddingRight="24dp"
-        android:paddingBottom="24dp"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingBottom="24dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
 
         <Button
             android:id="@+id/b0"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="18dp"
             android:onClick="onButton"
+            android:padding="18dp"
             android:text="@string/b0"
             android:textSize="18sp" />
 
@@ -50,8 +50,8 @@
             android:id="@+id/b1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="18dp"
             android:onClick="onButton"
+            android:padding="18dp"
             android:text="@string/b1"
             android:textSize="18sp" />
 
@@ -59,8 +59,8 @@
             android:id="@+id/b2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="18dp"
             android:onClick="onButton"
+            android:padding="18dp"
             android:text="@string/b2"
             android:textSize="18sp" />
 
@@ -68,8 +68,8 @@
             android:id="@+id/b3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="18dp"
             android:onClick="onButton"
+            android:padding="18dp"
             android:text="@string/b3"
             android:textSize="18sp" />
 
@@ -87,10 +87,10 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="24dp"
-        android:paddingBottom="24dp"
         android:gravity="bottom"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:paddingBottom="24dp"
+        android:paddingTop="24dp">
 
         <Button
             android:id="@+id/prevBtn"
