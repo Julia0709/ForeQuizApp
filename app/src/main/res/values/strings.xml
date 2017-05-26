@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">ForeQuiz</string>
+
+    <!-- Question -->
+    <string name="questionText">Question!</string>
+
+    <!-- Buttons -->
+    <string name="b0">Choice1</string>
+    <string name="b1">Choice2</string>
+    <string name="b2">Choice3</string>
+    <string name="b3">Choice4</string>
+
+    <string name="prevBtn">Prev</string>
+    <string name="nextBtn">Next</string>
 </resources>
